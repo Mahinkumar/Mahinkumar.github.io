@@ -12,12 +12,33 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Axum_super_forms',
+        text: 'Axum Super Forms',
         items: [
-          { text: 'Setup', link: '/' },
-          { text: 'Usage', link: '/' }
-        ]
-      }
+        //  { text: 'Setup', link: '/axum_super_forms/setup' },
+        //  { text: 'Usage', link: '/axum_super_forms/usage' }
+        ],
+      },
+      {
+        text: 'Nano Image Server',
+        items: [
+        //  { text: 'Setup', link: '/axum_super_forms/setup' },
+        //  { text: 'Usage', link: '/axum_super_forms/usage' }
+        ],
+      },
+      {
+        text: 'Svelte Ecomm',
+        items: [
+        //  { text: 'Setup', link: '/axum_super_forms/setup' },
+        //  { text: 'Usage', link: '/axum_super_forms/usage' }
+        ],
+      },
+      {
+        text: 'Task Assistant',
+        items: [
+        //  { text: 'Setup', link: '/axum_super_forms/setup' },
+        //  { text: 'Usage', link: '/axum_super_forms/usage' }
+        ],
+      },
     ],
 
     socialLinks: [
