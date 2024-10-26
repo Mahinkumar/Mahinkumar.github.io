@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: '/',
   title: "docs.mahinkumar.com",
   description: "Documentation for all projects at github.com/mahinkumar",
   themeConfig: {
