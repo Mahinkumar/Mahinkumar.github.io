@@ -5,14 +5,6 @@ layout: home
 hero:
   name: "Mahinkumar-Docs "
   tagline: For all projects at github.com/mahinkumar (WIP)
-  description: 
-  actions:
-    - theme: brand
-      text: Portfolio
-      link: https://mahinkumar.com
-    - theme: alt
-      text: Linkedin
-      link: /
       
 
 features:
