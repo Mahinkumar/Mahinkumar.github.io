@@ -9,7 +9,7 @@ hero:
 
 features:
   - title: Relia
-    link: https://github.com/Mahinkumar/Relia
+    link: /relia
     details: A Self hostable, blazingly fast forms solution built with Rust, Organization and Notes. Scales on demand and includes a built-in load balancer and a suite of server management tools. 
   - title: OS From Scratch 
     link: https://github.com/Mahinkumar/OSFromScratch

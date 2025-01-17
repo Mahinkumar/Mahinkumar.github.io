@@ -12,7 +12,22 @@ export default defineConfig({
       { text: 'Blog' , link: 'https://internaut.mahinkumar.com/'},
     ],
 
-    sidebar: [],
+    sidebar: {
+      // This sidebar gets displayed when a user
+      // is on `guide` directory.
+      '/relia/': [
+        {
+          text: 'Relia',
+          
+          items: [
+            { text: 'Github',link: 'https://github.com/Mahinkumar/Relia'},
+            { text: 'Building from source', link: '/relia/build' },
+            { text: 'Configuration' , link: '/relia/config'},
+            { text: 'Usage', link: '/relia/usage' },
+          ]
+        }
+      ],
+    },
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/mahinkumar' }
