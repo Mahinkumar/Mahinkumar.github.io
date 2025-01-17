@@ -18,15 +18,34 @@ export default defineConfig({
       '/relia/': [
         {
           text: 'Relia',
-          
           items: [
-            { text: 'Github',link: 'https://github.com/Mahinkumar/Relia'},
             { text: 'Building from source', link: '/relia/build' },
             { text: 'Configuration' , link: '/relia/config'},
             { text: 'Usage', link: '/relia/usage' },
+            { text: 'Github',link: 'https://github.com/Mahinkumar/Relia'}
           ]
         }
       ],
+      '/osfromscratch/':[
+        {
+          text: 'OS from scratch',
+          items: [
+            { text: 'Introduction', link: '/osfromscratch/intro'},
+            { text: 'Github', link: 'https://github.com/Mahinkumar/OSFromScratch'}
+          ]
+        }
+      ],
+      '/nanoimageserver/':[
+        {
+          text: 'Nano image server',
+          items: [
+            { text: 'usage' , link:'/nanoimageserver/usage'},
+            { text: 'resizing' , link: '/nanoimageserver/resizing'},
+            { text: 'Filters', link: '/nanoimageserver/filters'},
+            { text: 'Github' , link:'https://github.com/Mahinkumar/Nano_image_server'}
+          ]
+        }
+      ]
     },
 
     socialLinks: [
