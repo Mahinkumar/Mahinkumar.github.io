@@ -49,7 +49,8 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/mahinkumar' }
+      { icon: 'github', link: 'https://github.com/mahinkumar' },
+      { icon: 'linkedin', link: 'https://linkedin.com/in/mahinkumar'},
     ]
   }
 })
