@@ -39,10 +39,21 @@ export default defineConfig({
         {
           text: 'Nano image server',
           items: [
-            { text: 'usage' , link:'/nanoimageserver/usage'},
-            { text: 'resizing' , link: '/nanoimageserver/resizing'},
-            { text: 'Filters', link: '/nanoimageserver/filters'},
             { text: 'Github' , link:'https://github.com/Mahinkumar/Nano_image_server'}
+          ]
+        },
+        {
+          text: 'Setup',
+          items: [
+            {text: 'Directory structure', link:'/nanoimageserver/setup/directory'},
+            {text: 'Starting the server', link:'/nanoimageserver/setup/starting'},
+            {text: 'Flags', link:'/nanoimageserver/setup/flags'}
+          ]
+        },
+        {
+          text: 'Functions',
+          items: [
+            { text: 'Overview' , link:'/nanoimageserver/functions/overview'},
           ]
         }
       ]
